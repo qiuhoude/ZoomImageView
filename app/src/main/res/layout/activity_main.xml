@@ -5,11 +5,10 @@
     android:layout_height="match_parent"
     tools:context="houde.zoomimageview.MainActivity">
 
-    <houde.zoomimageview.view.ZooImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="matrix"
-        android:src="@mipmap/a"
 
-        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
 </RelativeLayout>
